@@ -12,4 +12,6 @@ label choice_scene:
         "B":
             e "You chose B."
 
+    # return ends the game entirely so it should only be used for endings.
+
     return
