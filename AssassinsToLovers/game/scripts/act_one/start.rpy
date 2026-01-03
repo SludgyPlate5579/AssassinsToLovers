@@ -4,12 +4,18 @@
 # name of the character.
 
 define e = Character("Eileen")
+define player = Character("Player")
 
 
 # The game starts here.
 
 label start:
 
+    $ player.name = renpy.input("What is your name?")
+    $ player.name = player.name.strip()
+
+    if player.name == "":
+        $ player.name = "No Name"
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -24,9 +30,11 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    player "You've created a new Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    player "Once you add a story, pictures, and music, you can release it to the world!"
+
+    player "I'm %(player)s, by the way."
 
     # made this as a sample jump to another script file in a different folder
 
