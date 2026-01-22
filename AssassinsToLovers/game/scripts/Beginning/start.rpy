@@ -10,9 +10,23 @@ define player = Character("Player")
 # The game starts here.
 
 label start:
+    scene bg kingdom
 
-    $ player.name = renpy.input("What is your name?")
-    $ player.name = player.name.strip()
+    "In the Kingdom of Allaria, a tyrant rules the land."
+
+    "Their mood shifts with the wind, threatening and bestowing favor to whoever they please."
+    "Starting wars require no reason and their spouses are slaughtered as soon as they grow bored of them. No one is safe from their wrath, not even the most hidden."
+
+    scene bg black
+    with fade
+
+    "You now find yourself face to face with this vicious monarch, entrapped in the palace walls."
+
+    "Who are you?"
+    
+    menu:
+        "Male":
+        "Female":
 
     if player.name == "":
         $ player.name = "No Name"
