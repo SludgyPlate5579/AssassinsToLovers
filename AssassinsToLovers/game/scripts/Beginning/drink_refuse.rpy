@@ -18,7 +18,7 @@ label drink_refuse:
     "When night falls, your butler arrives with tea once more. Chamomile and two scoops of honey. {i}Will you drink it?{/i}"
 
     menu:
-        "No."
+        "No.":
             scene bedroom night
 
             "You bid your butler away and go to bed on a cold stomach."
@@ -31,5 +31,5 @@ label drink_refuse:
 
             scene teacup
 
-        "Yes."
-            jump 
+        "Yes.":
+            jump drink_accept 

@@ -43,20 +43,20 @@ label start:
     b "Chamomile with two scoops of honey, your Highness."
 
     menu:
-        "Thank you."
+        "Thank you.":
             "…You have manners? Since when? That must be a recent development since your entire staff wants to kill-"
-        "And only two scoops of honey?"
+        "And only two scoops of honey?":
             b "Nothing more, nothing less."
-        "Grunt."
+        "Grunt.":
     
     scene teacup
 
     "You pick up the cup, swirling its warm contents. Relaxation washes over you as you breathe in the steam. {i}Will you drink it?{/i}"
 
     menu:
-        "No."
+        "No.":
             jump drink_refuse
-        "Yes."
+        "Yes.":
             jump drink_accept
 
     # Show a background. This uses a placeholder by default, but you can
