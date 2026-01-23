@@ -23,8 +23,11 @@ label start:
     "Who are you?"
     
     menu:
+        # apply player sprites here and pronouns if needed.
         "Male":
+            pass
         "Female":
+            pass
 
     scene bedroom night
     with fade
@@ -48,6 +51,7 @@ label start:
         "And only two scoops of honey?":
             b "Nothing more, nothing less."
         "Grunt.":
+            pass
     
     scene teacup
 
@@ -58,27 +62,3 @@ label start:
             jump drink_refuse
         "Yes.":
             jump drink_accept
-
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    player "You've created a new Ren'Py game."
-
-    player "Once you add a story, pictures, and music, you can release it to the world!"
-
-    player "I', by the way."
-
-    # made this as a sample jump to another script file in a different folder
-
-    jump choice_scene
