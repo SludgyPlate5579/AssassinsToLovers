@@ -51,12 +51,13 @@ label start:
     
     scene teacup
 
-    "You pick up the cup, swirling its warm contents. Relaxation washes over you as you breathe in the steam. Will you drink it?"
+    "You pick up the cup, swirling its warm contents. Relaxation washes over you as you breathe in the steam. {i}Will you drink it?{/i}"
 
     menu:
         "No."
             jump drink_refuse
         "Yes."
+            jump drink_accept
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
