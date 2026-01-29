@@ -37,6 +37,8 @@ label start:
     "If you ask me, eating seems like a lost cause for you. No matter how many chefs you murder, all of your food ends up with a little drop of death in it. Perhaps you could spare all of us the time and finally accept your fate."
     "After all, an assassination is inevitable for someone with so many enemies."
 
+    show butler
+
     b "Your Highness? Your bedtime tea is ready."
 
     p "Bring it in."
