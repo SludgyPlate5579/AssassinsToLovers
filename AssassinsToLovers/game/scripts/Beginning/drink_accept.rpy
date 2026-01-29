@@ -7,3 +7,5 @@ label drink_accept:
     with fade
 
     "Suddenly, a sharp burn sears your heart. Prickles line your skin and an unquenchable need slickens your throat."
+
+    jump reveal
