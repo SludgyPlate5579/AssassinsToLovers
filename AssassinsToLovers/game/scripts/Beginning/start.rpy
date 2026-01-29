@@ -3,20 +3,20 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define b = Character("Butler", color="#492828c1")
+define b = Character("Butler", color="#476fd3c1")
 define p = Character("You", color="#195b13")
 
 
 # The game starts here.
 
 label start:
-    scene bg kingdom
+    scene kingdom
 
     "In the Kingdom of Allaria, a tyrant rules the land."
     "Their mood shifts with the wind, threatening and bestowing favor to whoever they please."
     "Starting wars require no reason and their spouses are slaughtered as soon as they grow bored of them. No one is safe from their wrath, not even the most hidden."
 
-    scene bg black
+    scene black
     with fade
 
     "You now find yourself face to face with this vicious monarch, entrapped in the palace walls."
