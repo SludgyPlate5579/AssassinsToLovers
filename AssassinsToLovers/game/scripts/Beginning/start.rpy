@@ -5,6 +5,7 @@
 
 define b = Character("Butler", color="#476fd3c1")
 define p = Character("You", color="#195b13")
+define a - Character("Assassin", color="#6f47d3c1")
 
 
 # The game starts here.

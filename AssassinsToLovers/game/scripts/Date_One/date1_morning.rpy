@@ -2,7 +2,7 @@
 
 # made this to show how choices work and that files can jump to each other from different folders
 
-label choice_scene:
+label date1_morning:
 
     e "Now, make a choice."
 
