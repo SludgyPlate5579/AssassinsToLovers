@@ -21,7 +21,7 @@ label reveal:
 
     "The tense and creeping moment is held until you find yourself face to face. Close enough to see his face illuminated in the moonlight. But something seems a bit… different?"
 
-    show butler_yassified
+    show butler yassified
 
     b "Seeing as this will be amongst your last moments alive, I ha-"\
 
@@ -45,11 +45,19 @@ label reveal:
     
     "Before your eyes, you see the butler’s form start to shift and mold into a completely new form. One that stuns you into shock."
 
+    hide butler
+
+    scene black
+    with fade
+
     "Now standing before you is your butler no more. In their place is a menacing,{w} dangerous,{w} stunning beauty."
 
-    show Assassin_Yassified
+    scene bedroom night
+    with fade
+    
+    show assassin
 
-    $ butler.name = "Butler?"
+    define b = Character("Butler?", color="#476fd3c1")
 
     b "Maybe you should do a more thorough check on your closest personal attendants next time."
     b "Or better yet, maybe don’t kill the few loyal servants that you still had. But heavens no, that surely would go against your deepest desires."
