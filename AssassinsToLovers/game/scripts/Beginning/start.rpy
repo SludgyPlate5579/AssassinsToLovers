@@ -39,6 +39,7 @@ label start:
     "After all, an assassination is inevitable for someone with so many enemies."
 
     show butler
+    with moveinleft
 
     b "Your Highness? Your bedtime tea is ready."
 

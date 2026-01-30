@@ -47,6 +47,9 @@ label drink_refuse:
                     "Today, your rampage does not go over so peacefully. The assassins have given up on your meals and resorted to direct violence. With so many citizens and staff gone, there is no one to shield you. Your throat is slit and your reign of evil finally comes to an end."
                     "{i}THE END{/i}"
 
+                    scene black
+                    with fade
+
                     $ renpy.full_restart()
                 "Yes":
                     jump drink_accept
