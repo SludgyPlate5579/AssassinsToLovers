@@ -54,7 +54,7 @@ label reveal:
 
     scene bedroom night
     with fade
-    
+
     show assassin
 
     define b = Character("Butler?", color="#476fd3c1")
@@ -77,9 +77,12 @@ label reveal:
 
     "Your once butler pulls up a chair to watch you die before her."
     "However, something quite bewildering happens. Your eyes look as healthy as before. Even as the night starts to become day, you still seem perfectly fine."
-    "As dawn breaks your assassin has a stunned look on their face. A silence falls over you both as you both hear the sounds of the castle starting to wake. Your servants are starting to make their rounds and as you hear footsteps approaching, everything starts to fade to black. You’re exhausted, for some odd reason. You feel healthy, yet drained of all energy."
+    "As dawn breaks your assassin has a stunned look on their face. A silence falls over you both as you both hear the sounds of the castle starting to wake."
+    "Your servants are starting to make their rounds and as you hear footsteps approaching, everything starts to fade to black."
 
-    scene black
+    scene black 
     with fade
+
+    "You’re exhausted, for some odd reason. You feel healthy, yet drained of all energy."
 
     jump date1_morning
