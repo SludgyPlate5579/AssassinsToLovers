@@ -46,16 +46,15 @@ label reveal:
     "Before your eyes, you see the butler’s form start to shift and mold into a completely new form. One that stuns you into shock."
 
     hide butler
-
     scene black
     with fade
 
     "Now standing before you is your butler no more. In their place is a menacing,{w} dangerous,{w} stunning beauty."
 
     scene bedroom night
+    show assassin
     with fade
 
-    show assassin
 
     define b = Character("Butler?", color="#476fd3c1")
 
