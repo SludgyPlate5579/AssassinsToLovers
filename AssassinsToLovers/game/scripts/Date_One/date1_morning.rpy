@@ -15,6 +15,8 @@ label date1_morning:
         "Come in.":
             pass
     
+    show love:
+        alpha 0.4
     show butler yassified
     with moveinright
 
@@ -52,6 +54,8 @@ label date1_morning:
             p "Please take your plate and go. I don’t need anything to eat right now. Leave me be, I need to attend to these pressing matters."
             hide butler yassified
             with moveoutright
+            hide love
+            with dissolve
             "The lie rolls off your tongue with ease, and despite the heat making you want to keep him there, you realize that focusing on your work soothes it slightly."
             menu:
                 "Work.":
@@ -70,6 +74,8 @@ label date1_morning:
 
     hide butler yassified
     with moveoutright
+    hide love
+    with dissolve
 
     "As he leaves, you can’t help but linger on that small seed of doubt that your dream truly wasn’t something made up. You need to look further. You wander the castle, discreetly watching the butler and him doing all of his duties. Nothing seemed off, but you still needed to watch, just in case."
 

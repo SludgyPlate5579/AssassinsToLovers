@@ -2,10 +2,14 @@
 
 label date2_garden:
     scene bedroom day
+    show love:
+        alpha 0.25
 
     "Your butler is a rather meticulous person, you’re finding. Stalking him is pretty entertaining, actually. You get to watch his beautiful figure walk through the hallways, his stoic face as he surveys documents..."
 
     scene sitting room
+    show love:
+        alpha 0.25
 
     "He does his duties carefully, the perfect picture of a model servant of the household. Maybe you should give him a raise. Or maybe you should find him a gift; surely that would be more preferable. You don’t give raises, after all. That would cost much more precious money — money that you could use to terrorize other kingdoms."
 
@@ -14,6 +18,8 @@ label date2_garden:
     "But then, your butler seems to stray off the inner pathways of the castle and walks out to the vast garden. That’s strange; it’s dinnertime. What butler duties would require going to the garden when he should be getting your dinner?"
 
     scene garden day
+    show love:
+        alpha 0.25
 
     "Interested, you follow him through the hedge maze, up until he reaches a small clearing with flowerbeds. He gracefully kneels at a group of blooming flowers, careful hands almost caressing the different petals."
 
