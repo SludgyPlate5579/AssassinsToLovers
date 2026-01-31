@@ -50,7 +50,7 @@ label drink_refuse:
                     scene black
                     with fade
 
-                    $ renpy.full_restart()
+                    jump credits
                 "Yes":
                     jump drink_accept
 

@@ -1,7 +1,7 @@
 # Start of date one
 
 label date1_morning:
-    scene throne_room day
+    scene sitting room
 
     "You sit on your throne, head still woozy and your heart still pounding. Luckily, today isn’t as busy as usual."
     "You are surprisingly well rested, despite your strange dream the other night. It truly did rile you up, as you haven’t felt such things in a while."
@@ -20,13 +20,11 @@ label date1_morning:
 
     "Wow. Seems like he caught on. Your butler gives you a puzzled look and awkwardly clears his throat. When he opens his mouth, you stare at his lips, and listen to his deep, velvety voice,"
 
-    define b = Character("Butler", color="#476fd3c1")
-
-    b "Are you alright?"
+    b2 "Are you alright?"
 
     "You can’t help but stare and silently nod, while you start to feel the heat once more. Your butler gently twitches his brow, a little concerned."
 
-    b "My, are you getting sick? Should I get the medic?"
+    b2 "My, are you getting sick? Should I get the medic?"
 
     "The butler reaches towards you and you snap out of it, scooting back."
 
@@ -34,7 +32,7 @@ label date1_morning:
 
     "To your words, the butler opens the window slightly, letting in the cold winter breeze."
 
-    b "Is that better?"
+    b2 "Is that better?"
 
     "You respond with a nod, fighting the urge to shiver. You can’t help but look down at the platter, thinking back on your strange dream the other night, it’s hard for you to really want to eat anything offered by them."
 

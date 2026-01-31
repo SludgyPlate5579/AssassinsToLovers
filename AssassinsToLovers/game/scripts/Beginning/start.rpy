@@ -6,12 +6,15 @@
 define b = Character("Butler", color="#476fd3c1")
 define p = Character("You", color="#195b13")
 define a = Character("Assassin", color="#6f47d3c1")
+define b2 = Character("Butler?", color="#476fd3c1")
 
+default gender = "none"
 
 # The game starts here.
 
 label start:
-    scene kingdom
+    scene carpe noctem by  darek zabrocki: 
+        zoom 1.65
 
     "In the Kingdom of Allaria, a tyrant rules the land."
     "Their mood shifts with the wind, threatening and bestowing favor to whoever they please."
@@ -26,9 +29,9 @@ label start:
     menu:
         # apply player sprites here and pronouns if needed.
         "Male":
-            pass
+            $ gender = "Male"
         "Female":
-            pass
+            $ gender = "Female"
 
     scene bedroom night
     with fade
@@ -38,7 +41,7 @@ label start:
     "If you ask me, eating seems like a lost cause for you. No matter how many chefs you murder, all of your food ends up with a little drop of death in it. Perhaps you could spare all of us the time and finally accept your fate."
     "After all, an assassination is inevitable for someone with so many enemies."
 
-    show butler
+    show butler n
     with moveinleft
 
     b "Your Highness? Your bedtime tea is ready."
