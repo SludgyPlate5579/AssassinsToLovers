@@ -45,9 +45,10 @@ label reveal:
     
     "Before your eyes, you see the butler’s form start to shift and mold into a completely new form. One that stuns you into shock."
 
-    hide butler
+    
     scene black
     with fade
+    hide butler
 
     "Now standing before you is your butler no more. In their place is a menacing,{w} dangerous,{w} stunning beauty."
 
@@ -56,23 +57,22 @@ label reveal:
     with fade
 
 
-    define b = Character("Butler?", color="#476fd3c1")
 
-    b "Maybe you should do a more thorough check on your closest personal attendants next time."
-    b "Or better yet, maybe don’t kill the few loyal servants that you still had. But heavens no, that surely would go against your deepest desires."
+    a "Maybe you should do a more thorough check on your closest personal attendants next time."
+    a "Or better yet, maybe don’t kill the few loyal servants that you still had. But heavens no, that surely would go against your deepest desires."
 
     if didSpeak:
-        b "Seeing as you are somehow able to speak, I’ll give you the final undeserving honor of granting you some final words."
+        a "Seeing as you are somehow able to speak, I’ll give you the final undeserving honor of granting you some final words."
         menu:
             "In the afterlife, would you be interested in grabbing a bite?":
-                b "Butler?: Stop trying to flatter me. It won’t save you."
+                a "Butler?: Stop trying to flatter me. It won’t save you."
             "I wish to apologize to all those I’ve wronged.":
-                b "I wouldn’t accept it even if you meant it."
+                a "I wouldn’t accept it even if you meant it."
             "Say nothing.":
-                b "..."
-                b "Fine. Be that way."
+                a "..."
+                a "Fine. Be that way."
     
-    b "Now let me enjoy your final moments as I watch life slowly fade from your eyes."
+    a "Now let me enjoy your final moments as I watch life slowly fade from your eyes."
 
     "Your once butler pulls up a chair to watch you die before her."
     "However, something quite bewildering happens. Your eyes look as healthy as before. Even as the night starts to become day, you still seem perfectly fine."
