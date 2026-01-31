@@ -50,9 +50,10 @@ label date1_morning:
         "Eat":
             pass
         "Reject the platter.":
+            show butler yassified disgusted
             "You grunt and focus on your stack of papers. You’ve got really important things to do, after all."
             p "Please take your plate and go. I don’t need anything to eat right now. Leave me be, I need to attend to these pressing matters."
-            hide butler yassified
+            hide butler
             with moveoutright
             hide love
             with dissolve
@@ -72,7 +73,7 @@ label date1_morning:
 
     "The butler says nothing but gives you a small nod, picking up your glass and the platter, then leaving."
 
-    hide butler yassified
+    hide butler
     with moveoutright
     hide love
     with dissolve

@@ -14,6 +14,7 @@ label what_here:
                 "Thank you.":
                     pass
                 "You should be getting my dinner.":
+                    show butler yassified disgusted
                     p "Hurry if you don’t want me to have you replaced."
                     b2 "Yes, your highness."
 

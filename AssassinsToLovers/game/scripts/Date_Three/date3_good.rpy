@@ -9,6 +9,7 @@ label date3_good:
     "You asked this man to dinner, for god's sake, and now you’re already going to your bedroom? Even your previous suitors have never gotten this far. "
 
     scene bedroom night
+    show butler n
 
     "You finally reach your room, where your butler reaches out to you, pulling you inside and shutting the door behind you. You’re taken aback, with how direct he is, but before any words come out, the butler presses you against the door, looking into your eyes."
     "You notice something gently shift within his eyes, quite literally, as his blue eyes slowly shift to a yellow. You get a rush of adrenaline, the reason unknown to you. Something’s off, and you can’t exactly put it together just yet."
@@ -19,7 +20,15 @@ label date3_good:
 
     b2 "I guess there was no point in trying to hide anymore, huh?"
 
+    scene black
+    with fade
+    hide butler
+
     "It finally clicked, and you can’t help but stare, there was no dream."
+
+    scene bedroom night
+    show assassin n
+    with fade
 
     menu:
         "So it was you after all...":
@@ -30,15 +39,21 @@ label date3_good:
             "Her voice echoed throughout your body."
             "You hated this feeling, the feeling of uncertainty. You’re a tyrant. A merciless one. You get what you want, and it’s to make this feeling go away."
 
-            window hide
-            if gender == "male":
-                show male kiss
-            else if gender == "female":
-                show female kiss
+            if gender == "Male":
+                scene male kiss
+                with fade
+            elif gender == "Female":
+                scene female kiss
+                with fade
             else:
                 "idk what you did"
+            window hide
+            pause
             
             "You pull the assassin in and gently kiss her, feelings exploding into pure bliss. She doesn't seem to mind though, as her hands find their way over onto both sides of your face, gently cupping your cheeks. You both pull away eventually before you look into her shimmering citrine eyes."
+
+            scene bedroom night
+            show assassin flushed n
 
             p "Tell me, what is your true name?"
 
