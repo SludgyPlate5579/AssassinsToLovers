@@ -4,6 +4,8 @@ default didSpeak = True
 
 label reveal:
     scene bedroom night
+    show love:
+        alpha 0.4
     with fade
 
     "Your eyes snap open! Wide, awake, and… lustful?"
@@ -21,9 +23,11 @@ label reveal:
 
     "The tense and creeping moment is held until you find yourself face to face. Close enough to see his face illuminated in the moonlight. But something seems a bit… different?"
 
+    define slowWalk = Dissolve(1.5)
     show butler yassified
+    with slowWalk
 
-    b "Seeing as this will be amongst your last moments alive, I ha-"\
+    b "Seeing as this will be amongst your last moments alive, I ha-"
 
     menu:
         "I have never noticed how stunning you are":
