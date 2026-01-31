@@ -115,7 +115,7 @@ define gui.name_xalign = 0.55
 
 ## The width, height, and borders of the box containing the character's name,
 ## or None to automatically size it.
-define gui.namebox_width = 200
+define gui.namebox_width = 250
 define gui.namebox_height = 70
 
 ## The borders of the box containing the character's name, in left, top, right,
@@ -257,7 +257,7 @@ define gui.skip_ypos = 15
 define gui.notify_ypos = 68
 
 ## The spacing between menu choices.
-define gui.choice_spacing = 33
+define gui.choice_spacing = 43
 
 ## Buttons in the navigation section of the main and game menus.
 define gui.navigation_spacing = 6

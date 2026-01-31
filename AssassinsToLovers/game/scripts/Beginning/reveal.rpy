@@ -30,7 +30,7 @@ label reveal:
     b "Seeing as this will be amongst your last moments alive, I ha-"
 
     menu:
-        "I have never noticed how stunning you are":
+        "I have never noticed how stunning you are.":
             b "Wha-"
             b "..."
             b "Do you really think flattery will help you in this situation?"
@@ -40,11 +40,11 @@ label reveal:
             b "Before you rudely interrupted me, I was about to reveal something to you."
         "MARRY ME":
             b "WHAT!?"
-            b "{cps=20}{b}don’t{/b}{/cps} mess with me"
+            b "{cps=20}{b}Don’t{/b}{/cps} mess with me-"
             b "..."
-            b "(how did they speak?)"
+            b "(How did they speak?)"
             b "I wanted you to know."
-        "Say nothing" (didSpeak=False):
+        "Say nothing." (didSpeak=False):
             b "-ve one last thing to reveal to you..."
     
     "Before your eyes, you see the butler’s form start to shift and mold into a completely new form. One that stuns you into shock."
@@ -74,18 +74,18 @@ label reveal:
         a "Seeing as you are somehow able to speak, I’ll give you the final undeserving honor of granting you some final words."
         menu:
             "In the afterlife, would you be interested in grabbing a bite?":
-                a "Butler?: Stop trying to flatter me. It won’t save you."
+                a "Stop trying to flatter me. It won’t save you."
             "I wish to apologize to all those I’ve wronged.":
                 a "I wouldn’t accept it even if you meant it."
             "Say nothing.":
                 a "..."
                 a "Fine. Be that way."
     
-    a "Now let me enjoy your final moments as I watch life slowly fade from your eyes."
+    a "Now, let me enjoy your final moments as I watch your life slowly fade from your eyes."
 
     "Your once butler pulls up a chair to watch you die before her."
     "However, something quite bewildering happens. Your eyes look as healthy as before. Even as the night starts to become day, you still seem perfectly fine."
-    "As dawn breaks your assassin has a stunned look on their face. A silence falls over you both as you both hear the sounds of the castle starting to wake."
+    "As dawn breaks, your assassin has a stunned look on their face. A silence falls over you both as you both hear the sounds of the castle starting to wake."
     "Your servants are starting to make their rounds and as you hear footsteps approaching, everything starts to fade to black."
 
     scene black 

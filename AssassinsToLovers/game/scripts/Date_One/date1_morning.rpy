@@ -4,9 +4,9 @@ label date1_morning:
     scene sitting room
 
     "You sit on your throne, head still woozy and your heart still pounding. Luckily, today isn’t as busy as usual."
-    "You are surprisingly well rested, despite your strange dream the other night. It truly did rile you up, as you haven’t felt such things in a while."
+    "You are surprisingly well rested, despite your strange dream the other night. It truly did rile you up, as you haven’t felt such... well, {i}things{/i} in a while."
     "All of your previous spouses never really fit the bill, but damn- your butler was HOT last night, both as your butler and your assassin."
-    "Figmund Sreud would’ve definitely read into that. Like, do you really want to be assassinated? Did you have a thing for your b-"
+    "Figmund Sreud would’ve definitely read into that. Like, do you really want to be assassinated? Did your parents mess up the phallic or genital stage of your development? Did you have a thing for your b-"
 
     "Your heart stops as your thoughts are rudely interrupted with a knock."
     "You pause to feel your face, checking to see if any heat has stayed. You pray you aren’t flushed and you call out, "
@@ -20,30 +20,30 @@ label date1_morning:
     show butler yassified
     with moveinright
 
-    "Your butler arrives with a plate of crackers and cheese, paired with a glass of wine. He gently sets it down but for some reason you can’t help but give him the up-down."
-    "Staring at him, you notice his skin is so glossy, his hair shines with a radiance that could almost blind you, and oh, his eyes. So dreamy-"
+    "Your butler arrives with a plate of crackers and cheese, paired with a glass of wine. He gently sets it down, but for some reason you can’t help but give him the up-down."
+    "Staring at him, you notice his glossy skin, hair shining with a radiance that could almost blind you, and oh, his eyes. So dreamy-"
 
-    "Wow. Seems like he caught on. Your butler gives you a puzzled look and awkwardly clears his throat. When he opens his mouth, you stare at his lips, and listen to his deep, velvety voice,"
+    "Oh. Seems like he caught on. Your butler gives you a puzzled look and awkwardly clears his throat. His mouth opens, perfect lips curving, releasing  a deep, velvety voice,"
 
     b2 "Are you alright?"
 
-    "You can’t help but stare and silently nod, while you start to feel the heat once more. Your butler gently twitches his brow, a little concerned."
+    "You can’t help but stare as you nod silently, feeling the heat once more. Your butler gracefully twitches a brow, a little concerned."
 
     b2 "My, are you getting sick? Should I get the medic?"
 
     "The butler reaches towards you and you snap out of it, scooting back."
 
-    p "I’m fine. Don’t worry. This room is just hot."
+    p "I’m alright—this room is just... hot."
 
     "To your words, the butler opens the window slightly, letting in the cold winter breeze."
 
     b2 "Is that better?"
 
-    "You respond with a nod, fighting the urge to shiver. You can’t help but look down at the platter, thinking back on your strange dream the other night, it’s hard for you to really want to eat anything offered by them."
+    "You respond with a nod, fighting the urge to shiver. You can’t help but look down at the platter, thinking back on your strange dream the other night; it’s hard for you to really want to eat anything offered by them."
 
     menu:
         "Make the butler eat it first.":
-            p "I can’t possibly indulge alone, here, take a piece."
+            p "I can’t possibly indulge alone. Here, take a piece."
             "You motion over to the platter, patiently waiting for your butler to sample the food. With no hesitation, the butler thanks you then takes a piece of cheese, placing it on a cracker and eating it."
             "You can’t help but watch as he tries eating as neatly as he can, licking a crumb off of the corner of his mouth. God how you wish you were-"
             "You snap out of it. God, you are a freak! This is embarrassing to even watch!"

@@ -13,7 +13,9 @@ label date2_garden:
         alpha 0.25
     show butler yassified
 
-    "He does his duties carefully, the perfect picture of a model servant of the household. Maybe you should give him a raise. Or maybe you should find him a gift; surely that would be more preferable. You don’t give raises, after all. That would cost much more precious money — money that you could use to terrorize other kingdoms."
+    "He does his duties carefully, the perfect picture of a model servant of the household. Maybe you should give him a raise." 
+    
+    "Or maybe you should find him a gift; surely that would be more preferable. You don’t give raises, after all. That would cost much more precious money — money that you could use to terrorize other kingdoms."
 
     scene black
 
@@ -78,6 +80,8 @@ label date2_garden:
                     b2 "Are you certain? That is quite..."
 
                     p "I'm certain."
+
+                    "There’s a pause as he stares at you. Then, he smiles."
 
                     "With a bow and one hand behind his back, your butler presents you with a flower. It’s a rose, dark red with delicate, swirling petals."
 
