@@ -81,6 +81,8 @@ label date2_garden:
 
                     p "I'm certain."
 
+                    "There’s a pause as he stares at you. Then, he smiles."
+
                     "With a bow and one hand behind his back, your butler presents you with a flower. It’s a rose, dark red with delicate, swirling petals."
 
                     b2 "In that case, I present this to you in gratitude."

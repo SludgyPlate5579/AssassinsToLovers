@@ -40,7 +40,7 @@ label reveal:
             b "Before you rudely interrupted me, I was about to reveal something to you."
         "MARRY ME":
             b "WHAT!?"
-            b "{cps=20}{b}Don’t{/b}{/cps} mess with me"
+            b "{cps=20}{b}Don’t{/b}{/cps} mess with me-"
             b "..."
             b "(How did they speak?)"
             b "I wanted you to know."
