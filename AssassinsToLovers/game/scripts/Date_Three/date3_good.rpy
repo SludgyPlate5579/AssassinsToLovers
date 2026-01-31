@@ -1,6 +1,10 @@
 # good route for date 3
 
 label date3_good:
+    $ good_date = True
+    
+    stop music fadeout 1.0
+    play music "almost new.mp3" fadein 1.0 loop
     scene black
     with fade
 

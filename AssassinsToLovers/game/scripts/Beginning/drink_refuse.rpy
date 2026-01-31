@@ -3,6 +3,8 @@
 default kills = 0
 
 label drink_refuse:
+    stop music fadeout 1.0
+    play music "stay the course.mp3" fadein 1.0 loop
     scene bedroom night
 
     "You bid your butler away and go to bed on a cold stomach."
@@ -41,8 +43,10 @@ label drink_refuse:
 
                     "You bid your butler away and go to bed on a cold stomach."
 
-                    scene bedroom day
-                    show blood onlayer overlay
+                    scene bad end
+                    with fade
+                    window hide
+                    pause
 
                     "Today, your rampage does not go over so peacefully. The assassins have given up on your meals and resorted to direct violence. With so many citizens and staff gone, there is no one to shield you. Your throat is slit and your reign of evil finally comes to an end."
                     "{i}THE END{/i}"

@@ -14,6 +14,8 @@ label what_here:
                 "Thank you.":
                     pass
                 "You should be getting my dinner.":
+                    stop music fadeout 1.0
+                    play music "stay the course.mp3" fadein 1.0 loop
                     show butler yassified disgusted
                     p "Hurry if you don’t want me to have you replaced."
                     b2 "Yes, your highness."

@@ -3,10 +3,8 @@
 default didSpeak = True
 
 label reveal:
+    play music heartwarming fadein 1.0 loop
     scene bedroom night
-    show love:
-        alpha 0.4
-    with fade
 
     "Your eyes snap open! Wide, awake, and… lustful?"
 
@@ -25,6 +23,8 @@ label reveal:
 
     define slowWalk = Dissolve(1.5)
     show butler yassified n
+    show love:
+        alpha 0.4
     with slowWalk
 
     b "Seeing as this will be amongst your last moments alive, I ha-"
@@ -49,12 +49,15 @@ label reveal:
     
     "Before your eyes, you see the butler’s form start to shift and mold into a completely new form. One that stuns you into shock."
 
+    stop music fadeout 1.0
     
     scene black
     with fade
     hide butler
 
     "Now standing before you is your butler no more. In their place is a menacing,{w} dangerous,{w} stunning beauty."
+
+    play music "inner light.mp3" fadein 1.0 loop
 
     scene bedroom night
     show love:
