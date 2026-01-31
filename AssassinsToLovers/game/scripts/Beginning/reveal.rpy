@@ -24,7 +24,7 @@ label reveal:
     "The tense and creeping moment is held until you find yourself face to face. Close enough to see his face illuminated in the moonlight. But something seems a bit… different?"
 
     define slowWalk = Dissolve(1.5)
-    show butler yassified
+    show butler yassified n
     with slowWalk
 
     b "Seeing as this will be amongst your last moments alive, I ha-"
@@ -57,7 +57,9 @@ label reveal:
     "Now standing before you is your butler no more. In their place is a menacing,{w} dangerous,{w} stunning beauty."
 
     scene bedroom night
-    show assassin
+    show love:
+        alpha 0.4
+    show assassin n
     with fade
 
 
