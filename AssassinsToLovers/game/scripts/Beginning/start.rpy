@@ -35,9 +35,17 @@ label start:
         "Female":
             $ gender = "Female"
 
+    if gender == "Female":
+        show female player at top
+        with fade
+    if gender == "Male":
+        show male player at top
+        with fade
+
+    "Yep, that's you."
+
     scene bedroom night
     with fade
-
     "You step away from the royal reflection in the mirror, satisfied."
     "Ah, I forgot to mention. You are the tyrant. And you killed me, along with the other twenty-five poison testers this month."
     "If you ask me, eating seems like a lost cause for you. No matter how many chefs you murder, all of your food ends up with a little drop of death in it. Perhaps you could spare all of us the time and finally accept your fate."
