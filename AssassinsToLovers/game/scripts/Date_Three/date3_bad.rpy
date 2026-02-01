@@ -9,7 +9,9 @@ label date3_bad:
 
     show assassin angry n
 
-    "{i}It's her. The assassin.{/i} You can’t do anything but watch as the assassin lunges towards you in a flash, passing you as you collapse with a thud. You lay on the ground, the crimson warmth pouring out of you. The only thing you think of as the cold settles is that your reign is finally over, and you can finally rest. No more bloodshed, at least by your hand… just peace."
+    "{i}It's her. The assassin.{/i} You can’t do anything but watch as the assassin lunges towards you in a flash, passing you as you collapse with a thud." 
+    
+    "You lay on the ground, the crimson warmth pouring out of you. The only thing you think of as the cold settles is that your reign is finally over, and you can finally rest. No more bloodshed, at least by your hand… just peace."
 
     scene bad end
     with fade

@@ -30,7 +30,7 @@ label what_here:
     "Before you can even get your bearings, your butler pulls out an intricate pocket watch, checking the time."
 
     b2 "It seems as if dinnertime is approaching. Shall we head to your room?"
-    p "S-sure.{w=0.5} Yes.{p} That sounds...{w = 0.5} that sounds great."
+    p "S-sure.{w=0.5} Yes.{p} That sounds...{w=0.5} that sounds great."
     p "Let’s eat together."
 
     "Oh. You didn’t mean to say that, but there’s no going back now. There’s a flower behind your ear, anyway. You want to talk with him. He blinks."
