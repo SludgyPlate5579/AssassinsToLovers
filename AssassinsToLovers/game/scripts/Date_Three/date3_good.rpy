@@ -38,7 +38,8 @@ label date3_good:
 
     menu:
         "So it was you after all...":
-            "You look at your once butler, a strange mix of fear and anticipation coming over you. As they lean in you couldn’t help but let them get closer. Was your fear from your soon-to-be murderer being so close? Or was it from your lack of intimacy beforehand? Will they find you appea-"
+            "You look at your once butler, a strange mix of fear and anticipation coming over you. As they lean in, you can't help but let them get closer." 
+            "Was your fear from your soon-to-be murderer being so close? Or was it from your lack of intimacy beforehand? Will they find you appea-"
 
             a "What’s wrong now? Cat got your tongue, hm?"
 

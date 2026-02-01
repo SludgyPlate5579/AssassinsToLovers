@@ -65,10 +65,10 @@ label date2_garden:
 
             b2 "Why, thank you."
             b2 "I must say, you have been acting… rather strange as of late."
-            b2 "Are you alright? Perhaps you really are falling ill."
+            b2 "Are you alright? Perhaps you really {i}are{/i} falling ill."
             b2 "Do I need to call for a doctor?"
 
-            "No. Sure, you think there’s definitely something wrong with you right now, but asking for a medic would certainly be a bad idea. If an enemy hears of it, they might think they’ll be able to attack your kingdom."
+            "You shake your head. Sure, you think there’s definitely something wrong with you right now, but asking for a medic would certainly be a bad idea. If an enemy hears of it, they might think they’ll be able to attack your kingdom."
 
             b2 "May I ask why you have been… tailing me, in that case? Unless you want to request something?"
 
