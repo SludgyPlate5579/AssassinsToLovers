@@ -11,7 +11,8 @@ label date3_good:
     scene bedroom night
     show butler n
 
-    "You finally reach your room, where your butler reaches out to you, pulling you inside and shutting the door behind you. You’re taken aback, with how direct he is, but before any words come out, the butler presses you against the door, looking into your eyes."
+    "You finally reach your room, where your butler reaches out to you, pulling you inside and shutting the door behind you." 
+    "You’re taken aback with how direct he is, but before any words come out, the butler presses you against the door, looking into your eyes."
     "You notice something gently shift within his eyes, quite literally, as his blue eyes slowly shift to a yellow. You get a rush of adrenaline, the reason unknown to you. Something’s off, and you can’t exactly put it together just yet."
 
     b2 "You knew, didn’t you?"
@@ -24,7 +25,8 @@ label date3_good:
     with fade
     hide butler
 
-    "It finally clicked, and you can’t help but stare, there was no dream."
+    "It finally clicks, and you can’t help but stare—there was no dream."
+    "It was real."
 
     scene bedroom night
     show assassin n
@@ -52,8 +54,8 @@ label date3_good:
             
             "You pull the assassin in and gently kiss her, feelings exploding into pure bliss. She doesn't seem to mind though, as her hands find their way over onto both sides of your face, gently cupping your cheeks. You both pull away eventually before you look into her shimmering citrine eyes."
 
-            scene bedroom night
-            show assassin flushed n
+            #scene bedroom night
+            #show assassin flushed n
 
             p "Tell me, what is your true name?"
 
