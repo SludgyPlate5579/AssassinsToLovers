@@ -9,10 +9,12 @@ define a = Character("Assassin", color="#6f47d3c1")
 define b2 = Character("Butler?", color="#476fd3c1")
 
 default gender = "none"
+default good_date = False
 
 # The game starts here.
 
 label start:
+    play music anguish loop
     scene carpe noctem by  darek zabrocki: 
         zoom 1.65
 

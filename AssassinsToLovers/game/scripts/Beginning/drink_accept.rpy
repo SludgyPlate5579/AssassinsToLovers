@@ -8,4 +8,6 @@ label drink_accept:
 
     "Suddenly, a sharp burn sears your heart. Prickles line your skin and an unquenchable need slickens your throat."
 
+    stop music fadeout 1.0
+
     jump reveal
